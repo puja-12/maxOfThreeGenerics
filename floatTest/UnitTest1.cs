@@ -1,6 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace MaximumOf3.Tests
+namespace maxOfThree.Tests
 {
 
     [TestClass()]

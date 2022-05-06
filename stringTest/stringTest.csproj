@@ -15,7 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\floatTest\floatTest.csproj" />
     <ProjectReference Include="..\MaximumOf3\MaximumOf3.csproj" />
+    <ProjectReference Include="..\TestCases\inttest.csproj" />
   </ItemGroup>
 
 </Project>
