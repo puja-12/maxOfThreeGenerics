@@ -11,7 +11,8 @@ namespace maxOfThree
             while (true)
             {
 
-                Console.WriteLine("Choose the Program to be executed :\n1)using INT\n2)using Float\n3)using String");
+                Console.WriteLine("Choose the Program to be executed :\n1)using INT\n2)using Float\n3)using String\n4)genericsMethodfor3Datatypes");
+                    
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -41,6 +42,16 @@ namespace maxOfThree
                         usingstring usingstrings = new usingstring();
                         string result2 = usingstrings.Maximum(e, f, g);
                         Console.WriteLine("The Maximum of three strings is :" + result2);
+                        break;
+                  case4:
+                        GenericClass genericClass = new GenericClass();
+                        int value1 = GenericClass.Maximum<int>(4,6,8);
+                        Console.WriteLine("The Maximum of three integers is :" + value1);
+                        double value2 = GenericClass.Maximum<double>(1.1, 2.3, 3.4);
+                        Console.WriteLine("The Maximum of three values is :" + value2);
+                        string value3 = GenericClass.Maximum<string>("wheat", "rice", "pilses");
+                        Console.WriteLine("The Maximum of three strings is :" + value3);
+                        Console.WriteLine("\n");
                         break;
 
                 }
