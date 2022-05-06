@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumOf3", "MaximumOf3.csproj", "{D2696510-D143-4FC5-8C36-EEB7B738A595}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCases", "..\TestCases\TestCases.csproj", "{B0FA64EE-27CA-4C03-A275-77985BFC455D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inttest", "..\TestCases\inttest.csproj", "{B0FA64EE-27CA-4C03-A275-77985BFC455D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "floatTest", "..\floatTest\floatTest.csproj", "{E9E90386-7AC1-4A01-8744-02EFDF56D2E0}"
 EndProject

@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MaximumOf3\MaximumOf3.csproj" />
-    <ProjectReference Include="..\TestCases\TestCases.csproj" />
+    <ProjectReference Include="..\TestCases\inttest.csproj" />
   </ItemGroup>
 
 </Project>
