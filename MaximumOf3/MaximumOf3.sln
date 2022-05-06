@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "floatTest", "..\floatTest\f
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stringTest", "..\stringTest\stringTest.csproj", "{9CD24798-69F4-44F4-8AFC-8D52A37F35FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericTest", "..\GenericTest\GenericTest.csproj", "{0ECA7C76-0EE6-4ED8-B1BD-3398CDDC9251}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{9CD24798-69F4-44F4-8AFC-8D52A37F35FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CD24798-69F4-44F4-8AFC-8D52A37F35FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CD24798-69F4-44F4-8AFC-8D52A37F35FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ECA7C76-0EE6-4ED8-B1BD-3398CDDC9251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ECA7C76-0EE6-4ED8-B1BD-3398CDDC9251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ECA7C76-0EE6-4ED8-B1BD-3398CDDC9251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ECA7C76-0EE6-4ED8-B1BD-3398CDDC9251}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
