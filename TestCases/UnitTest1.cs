@@ -10,7 +10,7 @@ namespace maxOfThree.Tests
         {
             usingInt int1
                 = new usingInt();
-            int result = int1.Maximum(6, 5, 4);
+            int result = int1.Maximum(6, 2, 4);
             Assert.AreEqual(6, result);
 
         }
