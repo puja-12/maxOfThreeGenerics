@@ -11,7 +11,7 @@ namespace maxOfThree
             while (true)
             {
 
-                Console.WriteLine("Choose the Program to be executed :\n1)using INT\n2)using Float\n3)using String\n4)genericsMethodfor3Datatypes\n5)generic class and Method\n6)max using array\n");
+                Console.WriteLine("Choose the Program to be executed :\n1)using INT\n2)using Float\n3)using String\n4)genericsMethodfor3Datatypes\n5)generic class and Method\n6)max using array\n7)generics using array");
 
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
@@ -74,8 +74,19 @@ namespace maxOfThree
                         Console.WriteLine("The Maximum of StringArray is :" + A3);
                         Console.WriteLine("\n");
                         break;
+                    case 7:
+                        int[] intA = { 1, 2, 3, 4, 5, 6, 7 };
+                        double[] doubleA = { 1.1, 2.2, 3.3, 4.4, 5.5 };
+                        string[] stringA = { "wheat", "Rice", "pulse" };
+                        int A4 = MaxArray<int>.MaxValueOfMultipleUsingGenerics<int>(intA); ;
+                        Console.WriteLine("The Maximum of IntArray is :" + A4);
+                        double A5 = MaxArray<double>.MaxValueOfMultipleUsingGenerics<double>(doubleA); 
+                        Console.WriteLine("The Maximum of DoubleArray is :" + A5);
+                        string A6 = MaxArray<string>.MaxValueOfMultipleUsingGenerics<string>(stringA); 
+                        Console.WriteLine("The Maximum of StringArray is :" + A6);
+                        Console.WriteLine("\n");
+                        break;
 
-                  
 
                 }
             }
