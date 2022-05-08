@@ -63,7 +63,7 @@ namespace maxOfThree
                         Console.WriteLine("\n");
                         break;
                     case 6:
-                        int[] intarray = { 1, 2, 3, 4, 5, 6, 7 };
+                        int[] intarray = { 1, 2, 3, 4, 5, 6 };
                         double[] doublearray = { 1.1, 2.2, 3.3, 4.4, 5.5 };
                         string[] stringarray = { "wheat", "Rice", "pulse" };
                         int A1 = maxMethodusingArray.IntArray(intarray);
